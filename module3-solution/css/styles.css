@@ -1,0 +1,77 @@
+*{
+	font-family: 'Jua', sans-serif; 
+}
+
+#brand-main {
+	color: Black;
+}
+
+#food{
+	margin:10px;
+	border:2px solid;
+	padding: 10px;
+}
+
+p{
+	font-size:1.3em;
+}
+
+#Chicken{
+	text-align: center;
+}
+
+#mobile-button{
+    color: Black;	
+}
+
+#collapsable-nav{
+	padding :0px;
+
+}
+
+#nav-list {
+	margin-top: 1px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+
+}	
+
+#nav-list li{
+	background-color: lightgreen;
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 100%;
+	text-align: center;	
+	margin-top: -1px;
+	color: Black;    
+}
+
+#nav-list li a{
+	color: Black;    
+}
+
+.row{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+@media (max-width: 767px) {
+	.row{
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+}
+
+.menu-section {
+    word-wrap: break-word;  
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -10px;
+}
+.navbar-header {
+  clear: both;
+  margin-top: -20px;
+}
